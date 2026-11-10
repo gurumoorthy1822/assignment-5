@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body>
+     <form action="submit_form.html">
+    <h2>LOGIN PAGE</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+    <label for="email">Email </label>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" mim="18" max="55">
+    <br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dod" name="date">
+    <br><br>
+    <label for="appt">Appiontment Time</label>
+    <br>
+    <input type="time" id="appt" name="appt">
+    <br><br>
+    <label for="resume">Upload resume</label>
+    <br>
+    <input type="file" id="resume" name="resume">
+    <br><br>
+    <input type="hidden" id="userld" name="userld" value="12345">
+     <label for="subscribe">Subscribe To Newletter</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+    <br><br>
+     <label>Gender:</label>
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">female</label>
+    <br><br>
+     <label for="volume">volume</label>
+    <input type="range" mim="0" max="100">
+    <br><br>
+    <label for="favcolor">favorite color</label>
+    <br>
+    <input type="color" id="favcolor" name="favcolor" value="#ff00ff">
+    <br><br>
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+    <br><br>
+    <label for="country">Country:</label>
+    <br>
+    <select id="country" name="country">
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+     </select>
+    <br><br>
+    <label for="fruits">Fruits:</label>
+    <br>
+    <select id="fruits" name="fruits" multiple>
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="orange">Orange</option>
+    </select>
+    <br><br>
+    <label for="browser">Choose a browser:</label>
+    <br>
+    <input list="browsers" id="browser" name="browser">
+    <br>
+    <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Edge">
+    <option value="Safari">
+    </datalist>
+    <br><br>
+    <label>Sum Calculation:</label><br>
+    <input type="number" id="a" value="10"><br>
+    <input type="number" id="b" value="20"><br>
+    <output name="result" for="a b">30</output>
+    <br><br>
+    <fieldset>
+    <legend>Personal Information</legend>
+    <label for="firstname">First Name:</label>
+    <br>
+    <input type="text" id="firstname" name="firstname">
+    <br><br>
+
+    <label for="lastname">Last Name:</label>
+    <br>
+    <input type="text" id="lastname" name="lastname">
+    <br><br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="button" value="Click Me" onclick="alert('Hello!')">
+    <br><br>
+ </form>
+</body>
+</html>
